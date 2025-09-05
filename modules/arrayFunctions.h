@@ -4,9 +4,9 @@
 #include <vector>
 #include <iostream>
 
-void printArray(std::vector<int> &arr)
+void printArray(std::vector<u_int64_t> &arr)
 {
-  for (int num : arr)
+  for (uint64_t num : arr)
   {
     std::cout << num << " ";
   }

@@ -19,7 +19,7 @@ int main()
   std::cout << "Enter number: ";
   std::cin >> num;
 
-  int fact = factorial(num);
+  uint64_t fact = factorial(num);
 
   std::cout << fact << "\n";
 
